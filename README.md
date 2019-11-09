@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+   The Dom is an API provided byt the brower not JS. It is an interface to add, delete, and change content on a webpage.
+
 2. What is an event?
+
+   Every interaction a use has with a site.
 
 3. What is an event listener?
 
+   When an event happens, we listen for the specific events on specific elemets to do something about it. 
+
 4. Why would we convert a NodeList into an Array?
 
+   A nodelist is array-like. It can't be used with methods like forEach and map.
+
 5. What is a component?
+
+   A section of reusable code to be able to use our code DRY.
 
 ### Git Set up
 
