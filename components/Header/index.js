@@ -23,15 +23,16 @@ function Header(date, temp) {
         headerH1 = document.createElement('h1'),
         headerTemp = document.createElement('span');
     
-    header.appendChild(headerDate);
-    header.appendChild(headerH1);
-    header.appendChild(headerTemp);
-    
     headerDate.textContent = date;
     headerH1.textContent = "Lambda Times";
     headerTemp.textContent = temp;
-    
-    header.classList.add('date');
+        
+    header.appendChild(headerDate);
+    header.appendChild(headerH1);
+    header.appendChild(headerTemp);
+        
+    header.classList.add('header');
+    headerDate.classList.add('date')
     headerH1.classList.add('h1');
     headerTemp.classList.add('temp');
     
